@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.cards {
+    
+width: 300px;
+height: 450px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+text-align: center;
+margin: 0 20px;
+}
+.cards img{
+height: 84%;
+width: 100%;
+/* object-fit: cover; */
+}
+
+.j{
+display: flex;
+height: ;
+width: 100%;
+justify-content: center;
+}
+div.p {
+padding: 10px;
+}
+.cards p{
+width: 100%;
+}
+a{
+text-decoration: none;
+color: black;
+}
+.card-height{
+height: 100%;
+margin: 80px 0;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+nav{
+width: 100%;
+}
+ul{
+display: flex;
+background-color: black;
+/* justify-content: ; */
+}
+ul li {
+display: flex;
+list-style-type: none;
+margin: 30px;
+
+
+
+}
+ul li a{
+color: white;
+}
+@media screen  and (max-width:650px){
+.border-1{
+    border: 7px solid #77CCFF;
+}
+
+.border-2{
+    border: 7px solid #6eb40a;
+}
+.border-3{
+    border: 7px solid rgb(4, 7, 32);
+}
+.cards {
+    
+    /* width: 40vw; */
+   
+  }
+  div.head button{
+    width: 80vw;
+
+  }
+  .head .play{
+font-size: 10vw;
+}
+}
+@media screen  and (max-width:275px){
+/* div.head button{
+width: 180px;
+height: 50px;
+
+} */
+/* div.head h2{
+font-size: 19vw;
+} */
+
+}
+@media screen  and (max-width:310px){
+.cards {
+    object-fit: cover;
+    width: 221px;
+    height:400px;
+   
+  }
+.cards p{
+    font-size: 4vw;
+}
+.contacts img{
+    width: 24vw;
+}
+/* .head button{
+   width: 200px;
+}
+div.head h2{
+    font-size: 12vw;
+} */
+
+}
+
+@media screen  and (max-width:1008px){
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.j{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div .cards{
+    margin: 30px 0;
+}
+.card-height{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.game-genre{
+    
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+div.all{
+height: 100%;
+}
+button{
+margin: 15px 0;
+}
+}
+.genre{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.game-genre button{
+cursor: pointer;
+background: transparent;
+border-radius: 6px;
+width: 100px;
+
+}
+.h{
+box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+display: flex;
+justify-content: center
+}
+.all{
+background-color: ;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.head{
+display: flex;
+justify-content: center;
+align-items: center;
+transform: translateY(37px);
+}
+.head h2{
+font-size: 50px;
+}
+.head span{
+transform: translateY(-10px);
+}
+.head button{
+border-radius: 35px;
+cursor: pointer;
+width: 400px;
+background: transparent;
+height: 22vh;
+/* background-color: orange; */
+/* background-color: ; */
+pointer-events:auto;
+/* opacity: 0.3; */
+}
+.head button:hover{
+
+background-color: white;
+}
+
+.contacts{
+display: flex;
+justify-content: center;
+}
+.contacts a{
+margin: 30px;
+}
